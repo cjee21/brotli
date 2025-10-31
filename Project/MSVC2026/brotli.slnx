@@ -1,0 +1,17 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="MinSizeRel" />
+    <BuildType Name="Release" />
+    <BuildType Name="RelWithDebInfo" />
+    <Platform Name="ARM64" />
+    <Platform Name="ARM64EC" />
+    <Platform Name="Win32" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="brotlicommon.vcxproj" Id="a2c733d0-0511-3374-ab76-169fafc276bc" />
+  <Project Path="brotlidec.vcxproj" Id="abd0c651-f2d8-3560-9313-6df99d388406">
+    <BuildDependency Project="brotlicommon.vcxproj" />
+  </Project>
+</Solution>
