@@ -1,0 +1,8 @@
+MSVC*/.vs
+MSVC*/brotlicommon
+MSVC*/brotlidec
+MSVC*/*/Debug
+MSVC*/*/Release
+MSVC*/*/MinSizeRel
+MSVC*/*/RelWithDebInfo
+MSVC*/*.user
